@@ -1,0 +1,504 @@
+*{padding:0; margin:0 auto;}
+BODY
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    FONT-FAMILY: Verdana;
+	background-color:#CCCCCC
+}
+.Consulta_Reg1
+{
+    CURSOR: hand;
+	BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: dimgray;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: white
+}
+A.Consulta_Reg:active
+{
+    CURSOR: hand;
+    COLOR: #0066cc;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+A.Consulta_Reg:link
+{
+    CURSOR: hand;
+    COLOR: #0066cc;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+A.Consulta_Reg:visited
+{
+    CURSOR: hand;
+    COLOR: #0066cc;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.Consulta_Reg2
+{
+    CURSOR: hand;
+	BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: dimgray;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: lightgoldenrodyellow
+}
+.Consulta_Reg3
+{
+    CURSOR: hand;
+	BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 1px solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #ff0000
+}
+.Consulta_RegSelected
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: dimgray;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #ccffff
+}
+TABLE
+{
+    BORDER-RIGHT: 0px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px solid;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 10px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 0px solid;
+    COLOR: black;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px solid;
+    FONT-FAMILY: Verdana, Arial
+}
+TABLE TD
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    BORDER-LEFT-COLOR: black;
+    BORDER-BOTTOM-COLOR: black;
+    PADDING-BOTTOM: 2px;
+    MARGIN: 0px;
+    BORDER-TOP-COLOR: black;
+    PADDING-TOP: 2px;
+    BORDER-RIGHT-COLOR: black
+}
+TABLE TR
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    BORDER-LEFT-COLOR: black;
+    BORDER-BOTTOM-COLOR: black;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-TOP-COLOR: black;
+    PADDING-TOP: 0px;
+    BORDER-RIGHT-COLOR: black
+}
+.Consulta_RegTitulo
+{
+    FONT-SIZE: 11px;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #70829a;
+    TEXT-ALIGN: center
+}
+A
+{
+    FONT-SIZE: 10px;
+    COLOR: #0066cc;
+    FONT-FAMILY: Tahoma, Arial, Verdana;
+    TEXT-DECORATION: none
+}
+A .MenuPrincipal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: steelblue;
+    FONT-FAMILY: Tahoma, Arial, Verdana
+}
+A.MenuPrincipal:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #0066cc;
+    FONT-FAMILY: Tahoma, Arial, Verdana
+}
+A.MenuPrincipal:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #0066cc;
+    FONT-FAMILY: Tahoma, Arial, Verdana
+}
+A.MenuPrincipal:active
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #0066cc;
+    FONT-FAMILY: Tahoma, Arial, Verdana
+}
+.Titulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: steelblue;
+    FONT-FAMILY: Tahoma, Arial, Verdana;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: underline
+}
+.Estilo6 {color: #006699; font-size: 16;}
+.Estilo9 {color: #C40000; font-size: 10;}
+
+.SolapaMenuActivo
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #339999
+}
+.SolapaMenuInactivo
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #006666
+}
+.SolapaMenuTitulo
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 12px;
+    COLOR: #ffffcc;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #003300
+}
+.BarraHerramientas
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    BORDER-LEFT: 1px;
+    CURSOR: hand;
+    BORDER-BOTTOM: 1px
+}
+.Planilla
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #d8ebe6
+}
+.Planilla2
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: black;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: lightgoldenrodyellow
+}
+.Planilla3
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: black
+}
+.Botones
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: slategray;
+	cursor: pointer;
+	
+}
+.CampoNum
+{
+    CLEAR: both;
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Verdana;
+    TEXT-ALIGN: right
+}
+.CampoTex
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Arial, Verdana
+}
+.CampoTex1
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 11px;
+	background: #efefef;
+    FONT-FAMILY: Verdana
+}
+.CampoTex2
+{
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 10px;
+    COLOR: #FFFFFF;
+	background: #999999;
+    FONT-FAMILY: Verdana
+}
+.Error
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: black 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: red;
+    TEXT-ALIGN: center
+}
+.Encabezamiento
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 9px;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #336699
+}
+.EncabTitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Verdana, Arial;
+    LETTER-SPACING: 2px;
+    TEXT-ALIGN: center
+}
+A.Menu
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 11px;
+    CURSOR: hand;
+    COLOR: #003366;
+    FONT-FAMILY: Verdana, Arial
+}
+.Mensaje
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: black 1px solid;
+    COLOR: white;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: royalblue;
+    TEXT-ALIGN: center
+}
+.Subtitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial, Verdana;
+    TEXT-ALIGN: center
+}
+.PlanillaSubTitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    FONT-FAMILY: Arial, Verdana;
+    BACKGROUND-COLOR: khaki;
+    TEXT-ALIGN: left
+}
+/* Clase que tendra el tooltip */  
+.cssToolTip {
+ position: relative; /* Esta clase tiene que tener posicion relativa */
+ color: #ff8c00; /* Color del texto */
+}
+ 
+/* El tooltip */
+.cssToolTip span {
+ background: rgba(20,20,20,0.9) url('../iconos/aim.png') center left 5px no-repeat; 
+ border: 2px solid #87cefa;
+ border-radius: 5px;
+ box-shadow: 5px 5px 5px #333;
+ color: #87cefa;
+ display: none; /* El tooltip por defecto estara oculto */
+ font-size: 0.8em;
+ padding: 10px 10px 10px 35px;
+ max-width: 6000px;
+ position: absolute; /* El tooltip se posiciona de forma absoluta para no modificar el aspezto del resto de la pagina */
+ top: 20px; /* Posicion apartir de la parte superior del primer elemento padre con posicion relativa */
+ left: 0px; /* Posicion apartir de la parte izquierda del primer elemento padre con posicion relativa */
+ z-index: 100; /* Poner un z-index alto para que aparezca por encima del resto de elementos */
+}
+ 
+/* El tooltip cuando se muestra */
+.cssToolTip:hover span {
+ display: inline; /* Para mostrarlo simplemente usamos display block por ejemplo */
+}
+
+#popup {
+	left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+#popup2 {
+	left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.content-popup {
+	margin:0px auto;
+	margin-top:50px;
+	position:relative;
+	padding:10px;
+	width:750px;
+	min-height:250px;
+	border-radius:4px;
+	background-color:#FFFFFF;
+	box-shadow: 0 2px 5px #666666;
+}
+
+.content-popup h2 {
+	color:#48484B;
+	border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+.content-popup h3 {
+	margin-top:20px;
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    COLOR: #000000;
+
+    FONT-FAMILY: Verdana;
+	FONT-SIZE: 9;
+	border-radius:3px;
+    background: rgba(150, 150, 150, .5);
+}
+
+content-popup h3 input,textarea,select{
+padding:1px;outline:none;transition: all 0.15s ease-in-out;border-radius:3px;border:1px solid rgba(0,0,0,0.2);
+}
+
+content-popup h3 input,textarea,select:focus {
+box-shadow: 0 0 5px rgba(0,255,0,1);border:1px solid rgba(0,255,0,0.8);
+}
+
+content-popup h3 input:required:valid, content-popup h3 textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+content-popup h3 input:focus:invalid, content-popup h3 textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535;
+}
+
+
+
+	
+	
+	
+	
+	
+	
+.content-popup h4 {
+	margin-top:20px;
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    COLOR: #000000;
+
+    FONT-FAMILY: Verdana;
+	FONT-SIZE: 10px;
+	border-radius:3px;
+    background: rgba(150, 150, 150, .5);
+}
+
+.popup-overlay {
+	left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+	display:none;
+	background-color: #777777;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close {
+	position: absolute;
+    right: 15px;
+}
+.grip{
+	width:20px;
+	height:15px;
+	margin-top:-3px;
+	background-image:url('../images/grip.png');
+	margin-left:-5px;
+	position:relative;
+	z-index:88;
+	cursor:e-resize;
+    background-repeat: no-repeat;
+}
+
+.grip:hover{
+	background-position-x:-20px;
+}
+
+.dragging .grip{
+	background-position-x:-40px;
+}
+.JCLRLastGrip .grip{
+    background-position-y:-18px;
+    left:-2px;
+}
+#postback{
+	margin-bottom:10px;
+}
